@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "CubeDesk Mobile UI Fix",
+  "version": "1.1",
+  "description": "Fixes Cubedesk's User Interface for mobile devices, forcing own css styles.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://cubedesk.io/*",
+        "https://www.cubedesk.io/*"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://cubedesk.io/",
+        "https://www.cubedesk.io/"
+      ],
+      "css": [
+        "style-index.css"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://cubedesk.io/play*",
+        "https://www.cubedesk.io/play*"
+      ],
+      "css": [
+        "styles-play.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

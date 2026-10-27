@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+    .z-10 {
+        /* margin-left: 2.5vw !important; */
+        margin: 10px !important;
+    }
+}

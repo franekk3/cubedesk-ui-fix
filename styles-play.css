@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+    .z-10 {
+        margin-left: -10px !important;
+    }
+}
+.p-6 {
+    max-width: auto !important;
+}
