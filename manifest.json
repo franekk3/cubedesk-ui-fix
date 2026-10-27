@@ -30,7 +30,8 @@
     {
       "matches": [
         "https://cubedesk.io/play*",
-        "https://www.cubedesk.io/play*"
+        "https://www.cubedesk.io/play*",
+        "https://www.cubedesk.io/play/head-to-head*"
       ],
       "css": [
         "styles-play.css"
